@@ -21,6 +21,6 @@ def test_multiply():
 
 def test_divide():
     assert divide(2) == 1
-    assert divide(100) == 501
+    assert divide(100) == 50
     assert divide(18) == 9    
 
