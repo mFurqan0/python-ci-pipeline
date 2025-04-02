@@ -8,7 +8,7 @@ sys.path.insert(
     ),
 )
 
-from calculator import add, subtract, multiply, divide  # noqa: E402
+from calculator import add, subtract, multiply, divide 
 
 
 def test_add():
