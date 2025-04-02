@@ -26,5 +26,5 @@ jobs:
 
             - name: Lint code
               run: |
-                black --check . 
+                flake8 .  
 
