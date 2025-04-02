@@ -24,3 +24,8 @@ jobs:
             - name: Run tests
               run: pytest tests/
 
+            - name: Lint code
+              run: |
+                black --check .
+                flake8 .  
+
