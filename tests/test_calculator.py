@@ -1,8 +1,11 @@
 import sys
 import os
 
-# Fix for E402: Move imports to the top of the file
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../src")))
+# Adjusted to split the long import line to meet the line length requirement
+sys.path.insert(
+    0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../src"))
+)
+
 from calculator import add, subtract, multiply, divide  # noqa: E402
 
 
